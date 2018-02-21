@@ -214,7 +214,6 @@ img {
   background-image: repeating-linear-gradient(#dbdbdb, black);
   color: white;
   font-family: sans-serif;
-  width: 100vw;
   padding: 0;
   margin: 0;
 }
@@ -224,11 +223,6 @@ img {
 
 }
 
-#Tony img {
-  max-width: 100vw;
-  min-width: 100px;
-
-}
 
 #Tony .container .header  {
   display: grid;
@@ -238,7 +232,6 @@ img {
   background-size: cover;
   background-position: center;
   height: 100vw;
-  width: 100vw;
 }
 
 #Tony .container div.header > h1 {
@@ -250,14 +243,12 @@ img {
 
 #Tony .container .qoute {
   display: grid;
-  grid-area: "qoute";
   justify-content: center;
 
 }
 
 #Tony .container div.contact {
   display: grid;
-  grid-area: "content";
 
 }
 
@@ -266,7 +257,7 @@ img {
   justify-content: center;
   align-items: flex-end;
   flex-direction: row;
-  margin: 0 -5px;
+  margin: 0;
 
 }
 
@@ -286,7 +277,7 @@ img {
 }
 
 #Tony div.contact > ul > li :hover {
-  color: #ff4079;
+  color: Black;
   font-size: 1.5em;
 }
 
@@ -294,5 +285,3 @@ img {
   background-color: #ff4079;
 
 }
-
-
